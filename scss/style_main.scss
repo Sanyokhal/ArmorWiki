@@ -236,3 +236,155 @@
         }
     }
 }
+.photos{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/field.jpg);
+    background-position:bottom;
+    background-size: cover;
+    .slick_cont{
+        height: 80vh;
+        margin-top: calc(10vh - 80px);
+        width: 80vw;
+        margin-left: 10vw;
+        display: flex;
+        flex-direction: row;
+        .next, .prev{
+            width:2.5vw;
+        }
+        .slick{
+            width: 80vw;
+            height: 80vh;
+            div{
+                height: 80vh;
+                width: 80vw;
+                background-color: #F8F9FA;
+                h4{
+                    background-color: rgba(248, 249, 250, 0.3);
+                    padding:25px ;
+                    float: right;
+                }
+            }
+        }
+        .img_1, .img_2, .img_3, .img_4, .img_5, .img_6, .img_7, .img_8{
+            background-size: cover;
+            background-position: center;
+        }
+        .img_1{
+            background-image: url(../images/A-10.jpg);
+        }
+        .img_2{
+            background-image: url(../images/APACHE.jpg);
+        }
+        .img_3{
+            background-image: url(../images/AH-64.jpg);
+        }
+        .img_4{
+            background-image: url(../images/C-5.jpg);
+        }
+        .img_5{
+            background-image: url(../images/CH-47.jpg);
+        }
+        .img_6{
+            background-image: url(../images/tank_shooting.jpg);
+        }
+        .img_7{
+            background-image: url(../images/F-35.jpg);
+        }
+        .img_8{
+            background-image: url(../images/F-22.jpg);
+        }
+
+    }
+}
+.contacts{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/ivana-cajina-LlDQPnErFxo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    .container{
+        width: 90vw;
+        margin-left: 5vw;
+        height: 80vh;
+        margin-top: calc(10vh - 80px);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .links{
+            height: 80vh;
+            width: 40vw;
+            ul{
+                height: 60vh;
+                margin-top: 10vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                list-style: none;
+            }
+            li{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 40vw;
+                height: 12.5vh;
+                background-color: antiquewhite;
+                img{
+                    height: 10vh;
+                    margin-top: 1.25vh;
+                    margin-left: 25px;
+                }
+                a{
+                    margin-right: 25px;
+                    text-decoration: none;
+                    color: #22333B;
+                    font-size: 24px;
+                    font-weight: 900;
+                    line-height: 12.5vh;
+                }
+            }
+        }
+        .fund{
+            width: 40vw;
+            height: 80vh;
+            background-color: rgba(248, 249, 250, 0.8);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .upper{
+                height: 30vh;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+                h4{
+                    font-size: 32px;
+                    height: 30vh;
+                    line-height: 30vh;
+                }
+                img{
+                    width: 100px;
+                }ul{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                }
+                #spec{
+                    font-size: 26px;
+                    font-weight: 800;
+                    list-style: none;
+                }
+            }
+            .lower{
+                height: 40vh;
+                background-size: cover;
+                background-position: center;
+                background-image: url(../images/specna-arms-Um9WPLvWV_M-unsplash.jpg);
+            }
+        }
+    }
+}
