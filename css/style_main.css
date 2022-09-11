@@ -40,15 +40,17 @@
 .menu #support img {
   padding-left: 10px;
 }
-.menu #ua_lang, .menu #eng_lang {
-  cursor: pointer;
-}
 .menu li {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
   list-style: none;
   height: 80px;
   padding-top: 10px;
 }
-.menu li h4 {
+.menu li h4, .menu li a {
+  color: #F8F9FA;
+  text-decoration: none;
   font-size: 24px;
   font-weight: 800;
   height: 80px;
@@ -63,6 +65,11 @@
 }
 .menu li #uaf_logo {
   padding-right: 20px;
+}
+.menu li:hover a, .menu li:hover h4 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #EAE0D5;
 }
 
 .main-page {
@@ -160,6 +167,11 @@
   color: #22333B;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
 }
 
 .label {
@@ -315,7 +327,8 @@
 .photos {
   width: 100vw;
   height: 100vh;
-  background-image: url(../images/field.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/field.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/field.jpg);
   background-position: bottom;
   background-size: cover;
 }

@@ -25,14 +25,16 @@
             padding-left: 10px;
         }
     }
-    #ua_lang, #eng_lang{
-        cursor: pointer;
-    }
+
     li{
+        transition: all .5s;
+        cursor: pointer;
         list-style: none;
         height: 80px;
         padding-top: 10px;
-        h4{
+        h4,a{
+            color: #F8F9FA;
+            text-decoration: none;
             font-size: 24px;
             font-weight: 800;
             height: 80px;
@@ -47,6 +49,12 @@
         }
         #uaf_logo{
             padding-right: 20px;
+        }
+    }
+    li:hover{
+        a, h4{
+            transition: all .5s;
+            color: #EAE0D5;
         }
     }
 }
@@ -114,6 +122,10 @@
             transition: color .5s;
         }
     }
+}
+.wrapper{
+    width: 100%;
+    overflow: hidden;
 }
 .label{
     text-align: center;
@@ -239,7 +251,7 @@
 .photos{
     width: 100vw;
     height: 100vh;
-    background-image: url(../images/field.jpg);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/field.jpg);
     background-position:bottom;
     background-size: cover;
     .slick_cont{

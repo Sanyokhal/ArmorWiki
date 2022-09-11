@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: #F8F9FA;
+}
+
+.menu {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #F8F9FA;
+  background-color: #22333B;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu #lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.menu #support {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.menu #support img {
+  padding-left: 10px;
+}
+.menu li {
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  list-style: none;
+  height: 80px;
+  padding-top: 10px;
+}
+.menu li h4 {
+  font-size: 24px;
+  font-weight: 800;
+  height: 80px;
+  line-height: 80px;
+}
+.menu li img {
+  height: 80px;
+  width: 80px;
+}
+.menu li #logo {
+  padding-left: 20px;
+}
+.menu li #uaf_logo {
+  padding-right: 20px;
+}
+.menu li:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #EAE0D5;
+}
+
+#label {
+  margin-top: 100px;
+  width: 80vw;
+  margin-left: 10vw;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#pub_data {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80vw;
+  margin-left: 10vw;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info {
+  width: 80vw;
+  margin-left: 10vw;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+.info .img_cont {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 50vw;
+  margin-left: 15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.info .img_cont img {
+  width: 100%;
+}
+.info .img_cont h4 {
+  color: #F8F9FA;
+  background-color: #22333B;
+  width: 100%;
+}
+
+#additional {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80vw;
+  margin-left: 10vw;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.add_news {
+  margin-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 80vw;
+  margin-left: 10vw;
+}
+.add_news .news_card {
+  color: #F8F9FA;
+  font-size: 24px;
+  width: 37.5vw;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+}
+.add_news .news_card h3 {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  padding: 10px 0;
+}
+.add_news .frs {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/HIMARS.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/HIMARS.jpg);
+}
+.add_news .frs h4 {
+  text-align: right;
+  padding-right: 20px;
+}
+.add_news .sec {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/M777.JPG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/M777.JPG);
+}
+.add_news .sec h4 {
+  text-align: left;
+  padding-left: 20px;
+}
+.add_news .news_card:hover h3 {
+  color: #22333B;
+  background-color: rgba(248, 249, 250, 0.5);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}

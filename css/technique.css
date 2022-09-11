@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: #F8F9FA;
+}
+
+.menu {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #F8F9FA;
+  background-color: #22333B;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu #lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.menu #support {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.menu #support img {
+  padding-left: 10px;
+}
+.menu li {
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  list-style: none;
+  height: 80px;
+  padding-top: 10px;
+}
+.menu li h4 {
+  font-size: 24px;
+  font-weight: 800;
+  height: 80px;
+  line-height: 80px;
+}
+.menu li img {
+  height: 80px;
+  width: 80px;
+}
+.menu li #logo {
+  padding-left: 20px;
+}
+.menu li #uaf_logo {
+  padding-right: 20px;
+}
+.menu li:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #EAE0D5;
+}
+
+.container {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  width: 80vw;
+  margin-left: 10vw;
+  padding-top: 10vh;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container .l_part, .container .r_part {
+  width: 37.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container .l_part a, .container .r_part a {
+  text-decoration: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  cursor: pointer;
+  font-weight: 800;
+  background-color: #22333B;
+  color: #F8F9FA;
+  padding: 20px 0;
+}
+.container .l_part a:hover, .container .r_part a:hover {
+  color: #EAE0D5;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.air_force {
+  background-image: url(../images/sky.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ground_forces {
+  background-image: url(../images/field.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.naval {
+  background-image: url(../images/ivana-cajina-LlDQPnErFxo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+.naval #label {
+  color: #F8F9FA;
+}
+.naval .container .l_part h4, .naval .container .r_part h4 {
+  background-color: #F8F9FA;
+  color: #22333B;
+}
+
+.special_forces {
+  background-image: url(../images/CH-47.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#label {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  color: #22333B;
+  font-weight: 900;
+}

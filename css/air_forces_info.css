@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #F8F9FA;
+}
+
+.menu {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #F8F9FA;
+  background-color: #22333B;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu #lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.menu #support {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.menu #support img {
+  padding-left: 10px;
+}
+.menu li {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  list-style: none;
+  height: 80px;
+  padding-top: 10px;
+}
+.menu li h4, .menu li a {
+  color: #F8F9FA;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 800;
+  height: 80px;
+  line-height: 80px;
+}
+.menu li img {
+  height: 80px;
+  width: 80px;
+}
+.menu li #logo {
+  padding-left: 20px;
+}
+.menu li #uaf_logo {
+  padding-right: 20px;
+}
+.menu li:hover a, .menu li:hover h4 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #EAE0D5;
+}
+
+.main {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.main #label {
+  color: #22333B;
+  background-color: rgba(248, 249, 250, 0.7);
+  height: 80px;
+  text-align: center;
+  font-size: 64px;
+}
+
+.part_name {
+  color: #22333B;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  padding: 25px 0;
+}
+
+.info {
+  color: #22333B;
+  width: 100%;
+  height: 60vh;
+}
+.info .container {
+  width: 80vw;
+  height: 40vh;
+  margin-top: calc(10vh - 80px);
+  margin-left: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.info .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  height: 40vh;
+}
+.info .container ul li {
+  font-size: 20px;
+  font-weight: 900;
+}
+.info .container ul #op {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.tech {
+  margin-bottom: 150px;
+  color: #22333B;
+  width: 100%;
+}
+.tech .container {
+  width: 80vw;
+  margin-left: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.tech .container .info_card {
+  margin: 25px 0;
+  height: 600px;
+  width: 37.5vw;
+  text-align: center;
+}
+.tech .container .info_card ul {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+.tech .container .info_card li {
+  height: 30px;
+  padding: 10px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.tech .container .info_card #type {
+  font-size: 32px;
+  height: 50px;
+  font-weight: 900;
+}
+.tech .container .info_card .img_hold {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  background-color: #22333B;
+}
+.tech .container .info_card .img_hold #sub {
+  background-color: rgba(248, 249, 250, 0.7);
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 32px;
+}
+
+.ua .main {
+  background-image: url(../images/mig-29UA.jpg);
+}
+.ua .tech .container .fight .img_hold {
+  background-image: url(../images/Su-27.jpg);
+}
+.ua .tech .container .bomb .img_hold {
+  background-image: url(../images/Su-24.jpg);
+}
+.ua .tech .container .attack .img_hold {
+  background-image: url(../images/Su-25.jpg);
+}
+.ua .tech .container .cargo .img_hold {
+  background-image: url(../images/IL-76.jpg);
+}
+.ua .tech .container .recon .img_hold {
+  background-image: url(../images/AN-30.jpg);
+}
+.ua .tech .container .uav .img_hold {
+  background-image: url(../images/TB2.jpg);
+}
+
+.usa .main {
+  background-image: url(../images/V-22.jpg);
+}
+.usa .container .fight .img_hold {
+  background-image: url(../images/F-35.jpg);
+}
+.usa .container .bomb .img_hold {
+  background-image: url(../images/B-1B.jpg);
+}
+.usa .container .attack .img_hold {
+  background-image: url(../images/A-10.jpg);
+}
+.usa .container .cargo .img_hold {
+  background-image: url(../images/C-5.jpg);
+}
+.usa .container .recon .img_hold {
+  background-image: url(../images/E-3\ Sentry.jpg);
+}
+.usa .container .uav .img_hold {
+  background-image: url(../images/MQ-9.jpg);
+}
+
+.rus .main {
+  background-image: url(../images/su-57back.jpg);
+}
+.rus .container .fight .img_hold {
+  background-image: url(../images/mig-31.jpg);
+}
+.rus .container .bomb .img_hold {
+  background-image: url(../images/tu-160.jpg);
+}
+.rus .container .attack .img_hold {
+  background-image: url(../images/su-34.jpg);
+}
+.rus .container .cargo .img_hold {
+  background-image: url(../images/il-78.jpeg);
+}
+.rus .container .recon .img_hold {
+  background-image: url(../images/a-50.jpg);
+}
+.rus .container .heli .img_hold {
+  background-image: url(../images/mi-26.jpg);
+}
+
+.chn .main {
+  background-image: url(../images/J-20Back.jpg);
+}
+.chn .container .fight .img_hold {
+  background-image: url(../images/J-20.jpg);
+}
+.chn .container .bomb .img_hold {
+  background-image: url(../images/H-6.jpg);
+}
+.chn .container .awacs .img_hold {
+  background-image: url(../images/Y-9.jpg);
+}
+.chn .container .cargo .img_hold {
+  background-image: url(../images/Y-20.jpg);
+}
+.chn .container .recon .img_hold {
+  background-image: url(../images/y-8.jpg);
+}
+.chn .container .heli .img_hold {
+  background-image: url(../images/Z-9.jpg);
+}
+
+.ind .main {
+  background-image: url(../images/mig-27.jpg);
+}
+.ind .container .fight .img_hold {
+  background-image: url(../images/m2000.jpg);
+}
+.ind .container .attack .img_hold {
+  background-image: url(../images/jaguar.jpg);
+}
+.ind .container .awacs .img_hold {
+  background-image: url(../images/a-50.jpg);
+}
+.ind .container .cargo .img_hold {
+  background-image: url(../images/c-17.jpg);
+}
+.ind .container .train .img_hold {
+  background-image: url(../images/hawk.jpg);
+}
+.ind .container .heli .img_hold {
+  background-image: url(../images/mig-35.jpg);
+}
+
+.kor .main {
+  background-image: url(../images/t-50back.jpg);
+}
+.kor .container .fight .img_hold {
+  background-image: url(../images/t-50.jpg);
+}
+.kor .container .recon .img_hold {
+  background-image: url(../images/dasFal.jpg);
+}
+.kor .container .awacs .img_hold {
+  background-image: url(../images/awacs_korea.jpg);
+}
+.kor .container .cargo .img_hold {
+  background-image: url(../images/c-130j.jpg);
+}
+.kor .container .train .img_hold {
+  background-image: url(../images/f-5.jpg);
+}
+.kor .container .heli .img_hold {
+  background-image: url(../images/uh-60.jpg);
+}
+
+.jap .main {
+  background-image: url(../images/f-15backJ.jpg);
+}
+.jap .container .fight .img_hold {
+  background-image: url(../images/F-2.jpg);
+}
+.jap .container .recon .img_hold {
+  background-image: url(../images/C-2.jpg);
+}
+.jap .container .awacs .img_hold {
+  background-image: url(../images/E-2.jpg);
+}
+.jap .container .cargo .img_hold {
+  background-image: url(../images/C-1.jpg);
+}
+.jap .container .train .img_hold {
+  background-image: url(../images/T-4.jpg);
+}
+.jap .container .heli .img_hold {
+  background-image: url(../images/ch-47J.jpg);
+}
+
+.pak .main {
+  background-image: url(../images/pakistan_back.jpeg);
+}
+.pak .container .fight .img_hold {
+  background-image: url(../images/mirageIII.jpg);
+}
+.pak .container .recon .img_hold {
+  background-image: url(../images/Selex\ ES\ Falco.jpg);
+}
+.pak .container .awacs .img_hold {
+  background-image: url(../images/2000\ Erieye.jpg);
+}
+.pak .container .cargo .img_hold {
+  background-image: url(../images/saab-2000.jpg);
+}
+.pak .container .train .img_hold {
+  background-image: url(../images/FT-6.jpg);
+}
+.pak .container .heli .img_hold {
+  background-image: url(../images/AH-1.jpg);
+}
