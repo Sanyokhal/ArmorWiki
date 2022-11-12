@@ -31,7 +31,9 @@ body{
         list-style: none;
         height: 80px;
         padding-top: 10px;
-        h4{
+        h4,a{
+            color: #F8F9FA;
+            text-decoration: none;
             font-size: 24px;
             font-weight: 800;
             height: 80px;
@@ -49,8 +51,10 @@ body{
         }
     }
     li:hover{
-        transition: all .5s;
-        color: #EAE0D5;
+        a, h4{
+            transition: all .5s;
+            color: #EAE0D5;
+        }
     }
 }
 .main{
@@ -180,4 +184,39 @@ body{
             height: 100%;
         }
     }
+}
+.uk{
+    .main{
+        background-image: url(../images/sof_uk_back.jpg);
+    }
+}
+.us{
+    .main{
+        background-image: url(../images/us_sof_back.jpg);
+    }
+}
+.pol{
+    .main{
+        background-image: url(../images/sof_pol_back.png);
+    }
+}
+.chn{
+    .main{
+        background-image: url(../images/chn_sof_back.jpg);
+    }
+}
+.frn{
+    .main{
+        background-image: url(../images/frn_sof_back.jpg);
+    }
+}
+.ger{
+    .main{
+        background-image: url(../images/sof_ger_back.jpg);
+    } 
+}
+.rus{
+    .main{
+        background-image: url(../images/sof_rus_back.jpeg);
+    } 
 }

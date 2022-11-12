@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1200px) {
+  .menu li a, .menu li h4 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .menu li a, .menu li h4 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menu {
+    padding-right: 20px;
+  }
+  .menu #support {
+    display: none;
+  }
+  .menu li #logo {
+    width: 0;
+    display: none;
+  }
+  .menu li a, .menu li h4 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu #lang {
+    display: none;
+  }
+
+  .container {
+    font-size: 20px;
+    width: 95vw;
+    margin-left: 2.5vw;
+  }
+  .container .l_part, .container .r_part {
+    width: 45vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .air_force {
+    height: 600px;
+  }
+  .air_force #label {
+    font-size: 26px;
+  }
+  .air_force .l_part, .air_force .r_part {
+    height: 400px;
+  }
+
+  .ground_forces {
+    height: 600px;
+  }
+  .ground_forces #label {
+    font-size: 26px;
+  }
+  .ground_forces .l_part, .ground_forces .r_part {
+    height: 400px;
+  }
+
+  .naval {
+    height: 600px;
+  }
+  .naval #label {
+    font-size: 26px;
+  }
+  .naval .l_part, .naval .r_part {
+    height: 400px;
+  }
+
+  .special_forces {
+    height: 600px;
+  }
+  .special_forces #label {
+    font-size: 26px;
+  }
+  .special_forces .l_part, .special_forces .r_part {
+    height: 400px;
+  }
+}

@@ -27,13 +27,16 @@
             padding-left: 10px;
         }
     }
+
     li{
-        cursor: pointer;
         transition: all .5s;
+        cursor: pointer;
         list-style: none;
         height: 80px;
         padding-top: 10px;
-        h4{
+        h4,a{
+            color: #F8F9FA;
+            text-decoration: none;
             font-size: 24px;
             font-weight: 800;
             height: 80px;
@@ -51,8 +54,10 @@
         }
     }
     li:hover{
-        transition: all .5s;
-        color: #EAE0D5;
+        a, h4{
+            transition: all .5s;
+            color: #EAE0D5;
+        }
     }
 }
 #label{
@@ -78,11 +83,17 @@
     text-align: center;
     font-weight: 500;
     font-size: 24px;
+    p{
+        width: 60vw;
+        margin-left: 10vw;
+        font-weight: 400;
+        padding: 20px 0;
+    }
     .img_cont{
         margin-top: 25px;
         margin-bottom: 25px;
-        width:50vw;
-        margin-left: 15vw;
+        width:60vw;
+        margin-left: 10vw;
         display: flex;
         flex-direction: column;
         img{
@@ -93,6 +104,7 @@
             background-color: #22333B;
             width: 100%;
         }
+        
     }
 }
 #additional{
@@ -132,16 +144,17 @@
             text-align: right;
             padding-right: 20px;
         }
-        background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/HIMARS.jpg);
+        background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/mig-29UA.jpg);
     }
     .sec{
-        background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/M777.JPG);
+        background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../images/T-90.jpg);
         h4{
             text-align: left;
             padding-left: 20px;
         }
     }
     .news_card:hover{
+        cursor: pointer;
         h3{
             color: #22333B;
             background-color: rgba(248, 249, 250, 0.5);

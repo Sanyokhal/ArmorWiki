@@ -47,14 +47,16 @@
   padding-left: 10px;
 }
 .menu li {
-  cursor: pointer;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  cursor: pointer;
   list-style: none;
   height: 80px;
   padding-top: 10px;
 }
-.menu li h4 {
+.menu li h4, .menu li a {
+  color: #F8F9FA;
+  text-decoration: none;
   font-size: 24px;
   font-weight: 800;
   height: 80px;
@@ -70,7 +72,7 @@
 .menu li #uaf_logo {
   padding-right: 20px;
 }
-.menu li:hover {
+.menu li:hover a, .menu li:hover h4 {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   color: #EAE0D5;

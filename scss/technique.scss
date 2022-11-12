@@ -27,13 +27,16 @@
             padding-left: 10px;
         }
     }
+
     li{
-        cursor: pointer;
         transition: all .5s;
+        cursor: pointer;
         list-style: none;
         height: 80px;
         padding-top: 10px;
-        h4{
+        h4,a{
+            color: #F8F9FA;
+            text-decoration: none;
             font-size: 24px;
             font-weight: 800;
             height: 80px;
@@ -51,8 +54,10 @@
         }
     }
     li:hover{
-        transition: all .5s;
-        color: #EAE0D5;
+        a, h4{
+            transition: all .5s;
+            color: #EAE0D5;
+        }
     }
 }
 .container{

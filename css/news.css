@@ -47,14 +47,16 @@
   padding-left: 10px;
 }
 .menu li {
-  cursor: pointer;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  cursor: pointer;
   list-style: none;
   height: 80px;
   padding-top: 10px;
 }
-.menu li h4 {
+.menu li h4, .menu li a {
+  color: #F8F9FA;
+  text-decoration: none;
   font-size: 24px;
   font-weight: 800;
   height: 80px;
@@ -70,7 +72,7 @@
 .menu li #uaf_logo {
   padding-right: 20px;
 }
-.menu li:hover {
+.menu li:hover a, .menu li:hover h4 {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   color: #EAE0D5;
@@ -102,11 +104,17 @@
   font-weight: 500;
   font-size: 24px;
 }
+.info p {
+  width: 60vw;
+  margin-left: 10vw;
+  font-weight: 400;
+  padding: 20px 0;
+}
 .info .img_cont {
   margin-top: 25px;
   margin-bottom: 25px;
-  width: 50vw;
-  margin-left: 15vw;
+  width: 60vw;
+  margin-left: 10vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,20 +182,23 @@
   padding: 10px 0;
 }
 .add_news .frs {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/HIMARS.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/HIMARS.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/mig-29UA.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mig-29UA.jpg);
 }
 .add_news .frs h4 {
   text-align: right;
   padding-right: 20px;
 }
 .add_news .sec {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/M777.JPG);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/M777.JPG);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/T-90.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/T-90.jpg);
 }
 .add_news .sec h4 {
   text-align: left;
   padding-left: 20px;
+}
+.add_news .news_card:hover {
+  cursor: pointer;
 }
 .add_news .news_card:hover h3 {
   color: #22333B;

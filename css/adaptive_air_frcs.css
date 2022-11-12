@@ -1,0 +1,212 @@
+@media only screen and (max-width: 1200px) {
+  .menu li a, .menu li h4 {
+    font-size: 20px;
+  }
+
+  .main #label {
+    font-size: 60px;
+  }
+
+  .part_name {
+    font-size: 40px;
+  }
+
+  .info .container #numbers #op, .info .container #operations #op {
+    font-size: 22px;
+  }
+  .info .container #numbers li, .info .container #operations li {
+    font-size: 18px;
+  }
+
+  .tech .container .info_card #type {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .menu li a, .menu li h4 {
+    font-size: 16px;
+  }
+
+  .main #label {
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .info .container #numbers #op, .info .container #operations #op {
+    font-size: 26px;
+  }
+  .info .container #numbers li, .info .container #operations li {
+    font-size: 18px;
+  }
+
+  .tech .container {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  .tech .container .info_card {
+    width: 42.5vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menu {
+    padding-right: 20px;
+  }
+  .menu #support {
+    display: none;
+  }
+  .menu li #logo {
+    width: 0;
+    display: none;
+  }
+  .menu li a, .menu li h4 {
+    font-size: 16px;
+  }
+
+  .main #label {
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .info .container {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  .info .container #numbers li, .info .container #operations li {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .tech {
+    margin-bottom: 100px;
+  }
+  .tech .container {
+    width: 95vw;
+    margin-left: 2.5vw;
+  }
+  .tech .container .info_card {
+    width: 45vw;
+  }
+  .tech .container .info_card li {
+    font-size: 16px;
+  }
+  .tech .container .info_card #type {
+    font-size: 20px;
+  }
+  .tech .container .info_card .img_hold #sub {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu #lang {
+    display: none;
+  }
+
+  .main #label {
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .part_name {
+    font-size: 24px;
+    line-height: 30px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  .info {
+    height: 500px;
+  }
+  .info .container {
+    width: 100vw;
+    margin-top: 40px;
+    height: 350px;
+    margin-left: 0;
+  }
+  .info .container #numbers, .info .container #operations {
+    height: 100%;
+  }
+  .info .container #numbers li, .info .container #operations li {
+    font-size: 12px;
+  }
+
+  .tech {
+    margin-bottom: 50px;
+  }
+  .tech .container {
+    width: 100vw;
+    margin-left: 0;
+  }
+  .tech .container .info_card {
+    width: 47.5vw;
+  }
+  .tech .container .info_card li {
+    padding: 5px 0;
+    height: 20px;
+  }
+  .tech .container .info_card ul {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .menu #lang {
+    display: none;
+  }
+
+  .main #label {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .part_name {
+    font-size: 24px;
+    line-height: 30px;
+    height: 30px;
+    padding: 10px;
+  }
+
+  .info {
+    height: 700px;
+  }
+  .info .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100vw;
+    margin-top: 40px;
+    height: 600px;
+    margin-left: 0;
+  }
+  .info .container #numbers, .info .container #operations {
+    height: 45%;
+  }
+  .info .container #numbers li, .info .container #operations li {
+    font-size: 12px;
+  }
+
+  .tech {
+    margin-bottom: 25px;
+  }
+  .tech .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100vw;
+    margin-left: 0;
+  }
+  .tech .container .info_card {
+    margin: 0px 0;
+    width: 100vw;
+  }
+}

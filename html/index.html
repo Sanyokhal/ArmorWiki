@@ -9,12 +9,10 @@
     <link rel="shortcut icon" href="../images/logo.png" type="image/png">
     <!--CSS-->
     <link rel="stylesheet" href="../css/style_main.css">
-    <link rel="stylesheet" href="../css/glider.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
-    <!--Roboto-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/adaptive.css">
     <!--Montserrat-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
@@ -25,13 +23,13 @@
             <li><img src="../images/logo.png" alt="" id="logo"></li>
             <ul id="lang">
                 <li id="eng_lang">
-                    <h4>ENG</h4>
+                    <a href="index_eng.html">ENG</a>
                 </li>
                 <li>
                     <h4>/</h4>
                 </li>
                 <li id="ua_lang">
-                    <h4>UA</h4>
+                    <a>UA</a>
                 </li>
             </ul>
             <li>
@@ -56,19 +54,19 @@
         <div class="main-page">
             <!---------------------------------------------------------------------------MAIN_PAGE--------------------------------------------------------------------->
             <div class="container">
-                <div class="block high ">
-                    <h4>США в захваті від ефективності роботи ЗСУ з наданих систем HIMARS</h4>
-                    <p>1.09.2022</p>
+                <div class="block high " onclick="window.location.href = '../news/news_3.html'">
+                    <h4>Що охороняє українське небо</h4>
+                    <p>11.11.2022</p>
                 </div>
                 <div class="wide_bl">
-                    <div class="block wide fs">
-                        <h4>Яку роль відіграє артилерія на полі бою ?</h4>
-                        <p>2.09.2022</p>
+                    <div class="block wide fs" onclick="window.location.href = '../news/news_2.html'">
+                        <h4>Український танкіст зробив відео огляду російського танку Т-90А</h4>
+                        <p>11.11.2022</p>
                     </div>
-                    <div class="block wide sc">
-                        <h4>Які літаки потрібні Повітряним силам ЗСУ </h4>
-                        <p>3.09.2022</p>
-                    </div>
+                <div class="block wide sc" onclick="window.location.href = '../news/news_1.html'">
+                    <h4>Які літаки потрібні Повітряним силам ЗСУ ?</h4>
+                    <p>11.11.2022</p>
+                </div>
                 </div>
             </div>
         </div>
@@ -76,21 +74,21 @@
             <!---------------------------------------------------------------------------NEWS--------------------------------------------------------------------->
             <h2 class="label">Новини</h2>
             <div class="container">
-                <div class="card">
-                    <p id="name">В тайвані твориться дичка Злий нефритовий стержень напасти на тихий тайвань.</p>
-                    <p id="date">1.09.2022</p>
+                <div class="card f" onclick="window.location.href = '../news/news_4.html'">
+                    <p id="name">Зенітна гармата С-60 у російсько-українській війні</p>
+                    <p id="date">11.11.2022</p>
                 </div>
-                <div class="card">
-                    <p id="name">В тайвані твориться дичка Злий нефритовий стержень напасти на тихий тайвань.</p>
-                    <p id="date">2.09.2022</p>
+                <div class="card s" onclick="window.location.href = '../news/news_5.html'">
+                    <p id="name">Сучасна зброя для України від Швеції</p>
+                    <p id="date">11.11.2022</p>
                 </div>
-                <div class="card">
-                    <p id="name">В тайвані твориться дичка Злий нефритовий стержень напасти на тихий тайвань.</p>
-                    <p id="date">3.09.2022</p>
+                <div class="card rem t" onclick="window.location.href = '../news/news_6.html'">
+                    <p id="name">Західна бронетехніка в наступі на Харківщині</p>
+                    <p id="date">11.11.2022</p>
                 </div>
-                <div class="card">
-                    <p id="name">В тайвані твориться дичка Злий нефритовий стержень напасти на тихий тайвань.</p>
-                    <p id="date">4.09.2022</p>
+                <div class="card rem fv" onclick="window.location.href = '../news/news_7.html'">
+                    <p id="name">Хроніка боїв БТР-4МВ1 у ході звільнення Харківщини</p>
+                    <p id="date">11.11.2022</p>
                 </div>
             </div>
         </div>
@@ -98,12 +96,6 @@
             <!---------------------------------------------------------------------------TECHNIQUE--------------------------------------------------------------------->
             <h2 class="label">Техніка</h2>
             <div class="container">
-                <div class="banner sea" id="naval">
-                    <div class="disp">
-                        <h4>ВМС</h4>
-                        <img src="../images/anchor.png" alt="">
-                    </div>
-                </div>
                 <div class="banner air" id="air">
                     <div class="disp">
                         <h4>ВПС</h4>
@@ -114,6 +106,12 @@
                     <div class="disp">
                         <h4>СПВ</h4>
                         <img src="../images/soldier.png" alt="">
+                    </div>
+                </div>
+                <div class="banner sea" id="naval">
+                    <div class="disp">
+                        <h4>ВМС</h4>
+                        <img src="../images/anchor.png" alt="">
                     </div>
                 </div>
                 <div class="banner special" id="sof">

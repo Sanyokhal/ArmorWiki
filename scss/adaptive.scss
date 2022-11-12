@@ -1,0 +1,325 @@
+@media only screen and (max-width: 1200px) {
+  .menu{
+    li {
+      a, h4 {
+        font-size: 20px;
+      }
+    }
+  }
+  .main-page{
+    .container {
+      height: 60vh;
+      .block{
+        font-size: 20px;
+      }
+      .high {
+        height: 100%;
+        width: 25vw;
+      }
+      .wide{
+        width: 50vw;
+        height: 29vh;
+      }
+    }
+  }
+  .label{
+    font-size: 24px;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+  }
+  .news{
+    .card{
+      font-size: 14px;
+    }
+    .card:hover{
+      overflow: hidden;
+    }
+  }
+  .technique{
+    .container {
+      width: 90vw;
+      padding-left: 5vw;
+      .banner {
+        margin-top: 20px;
+        width: 20vw;
+        .disp{
+          width: 15vw;
+          margin-left: 2.5vw;
+        }
+      }
+    }
+  }
+  .photos{
+    .slick_cont{
+      margin-top: 50px;
+
+    }
+  }
+  .contacts{
+    .container {
+      .links {
+        width: 42.5vw;
+      }
+
+      .fund {
+        width: 42.5vw;
+        .upper{
+          img{
+            width: 75px;
+          }
+          h4{
+            visibility: hidden;
+            width: 0;
+            height: 0;
+          }
+          ul{
+            list-style: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .menu {
+    li {
+      a, h4 {
+        font-size: 16px;
+      }
+    }
+  }
+  .main-page {
+    .container {
+      height: 60vh;
+
+      .block {
+        font-size: 20px;
+      }
+
+      .high {
+        height: 100%;
+        width: 25vw;
+      }
+
+      .wide {
+        width: 50vw;
+        height: 29vh;
+      }
+    }
+  }
+  .news {
+    height: 300px;
+
+    .container {
+      height: 100%;
+      width: 90vw;
+      padding-left: 5vw;
+
+      .card {
+        width: 20vw;
+        margin-top: 20px;
+        height: 200px;
+        font-size: 12px;
+      }
+
+      .card:hover {
+        overflow: hidden;
+      }
+    }
+  }
+  .technique {
+    .container {
+      .banner {
+        .disp {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .contacts {
+    .container {
+      margin-top: calc(10vh - 30px);
+      .fund{
+        .upper{
+          font-size: 18px;
+          #spec{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menu {
+    padding-right: 20px;
+    #support {
+      display: none;
+    }
+    li {
+      #logo {
+        width: 0;
+        display: none;
+      }
+      a, h4 {
+        font-size: 16px;
+      }
+    }
+  }
+  .main-page {
+    .container {
+      height: 60vh;
+      width: 95vw;
+      padding-left: 2.5vw;
+
+      .block {
+        font-size: 16px;
+
+        p {
+          visibility: hidden;
+          width: 0;
+        }
+      }
+
+      .high {
+        height: 100%;
+        width: 30vw;
+      }
+
+      .wide {
+        width: 60vw;
+        height: 29vh;
+      }
+    }
+  }
+  .news {
+    .container {
+
+      .card {
+        width: 47vw;
+        font-size: 10px;
+        #date{
+          line-height: 20px;
+          height: 20px;
+        }
+      }
+
+      .rem {
+        display: none;
+      }
+
+      .card:hover {
+        overflow: hidden;
+      }
+    }
+  }
+  .photos {
+    width: 100vw;
+    .slick_cont {
+      margin-top: 40px;
+      width: 95vw;
+      margin-left: 2.5vw;
+      .slick{
+        width: 100%;
+        div{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .contacts {
+    .container {
+      width: 95vw;
+      margin-left: 2.5vw;
+      .links {
+        width: 90vw;
+        ul{
+          width: 100%;
+          li{
+            width: 100%;
+          }
+        }
+      }
+      .fund{
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu {
+    #lang{
+      display: none;
+    }
+  }
+  .main-page {
+    .container {
+      width: 100vw;
+      padding: 0;
+      padding-top: 20px;
+
+      .high {
+        width: 38vw;
+        overflow: hidden;
+      }
+
+      .wide {
+        width: 60vw;
+      }
+    }
+  }
+  .news {
+    width: 100vw;
+
+    .container {
+      width: 95%;
+      padding-left: 2.5%;
+
+      .card {
+        width: 47vw;
+        font-size: 14px;
+      }
+
+      .rem {
+        display: none;
+      }
+
+      .card:hover {
+        overflow: hidden;
+      }
+    }
+  }
+  .photos {
+    width: 100vw;
+    .slick_cont {
+      margin-top: 40px;
+      width: 95vw;
+      margin-left: 2.5vw;
+      .slick{
+        width: 100%;
+        div{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .contacts {
+    .container {
+      width: 95vw;
+      margin-left: 2.5vw;
+      .links {
+        width: 90vw;
+        ul{
+          width: 100%;
+          li{
+            width: 100%;
+          }
+        }
+      }
+      .fund{
+        display: none;
+      }
+    }
+  }
+}

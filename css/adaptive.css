@@ -1,0 +1,272 @@
+@media only screen and (max-width: 1200px) {
+  .menu li a, .menu li h4 {
+    font-size: 20px;
+  }
+
+  .main-page .container {
+    height: 60vh;
+  }
+  .main-page .container .block {
+    font-size: 20px;
+  }
+  .main-page .container .high {
+    height: 100%;
+    width: 25vw;
+  }
+  .main-page .container .wide {
+    width: 50vw;
+    height: 29vh;
+  }
+
+  .label {
+    font-size: 24px;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+  }
+
+  .news .card {
+    font-size: 14px;
+  }
+  .news .card:hover {
+    overflow: hidden;
+  }
+
+  .technique .container {
+    width: 90vw;
+    padding-left: 5vw;
+  }
+  .technique .container .banner {
+    margin-top: 20px;
+    width: 20vw;
+  }
+  .technique .container .banner .disp {
+    width: 15vw;
+    margin-left: 2.5vw;
+  }
+
+  .photos .slick_cont {
+    margin-top: 50px;
+  }
+
+  .contacts .container .links {
+    width: 42.5vw;
+  }
+  .contacts .container .fund {
+    width: 42.5vw;
+  }
+  .contacts .container .fund .upper img {
+    width: 75px;
+  }
+  .contacts .container .fund .upper h4 {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .contacts .container .fund .upper ul {
+    list-style: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .menu li a, .menu li h4 {
+    font-size: 16px;
+  }
+
+  .main-page .container {
+    height: 60vh;
+  }
+  .main-page .container .block {
+    font-size: 20px;
+  }
+  .main-page .container .high {
+    height: 100%;
+    width: 25vw;
+  }
+  .main-page .container .wide {
+    width: 50vw;
+    height: 29vh;
+  }
+
+  .news {
+    height: 300px;
+  }
+  .news .container {
+    height: 100%;
+    width: 90vw;
+    padding-left: 5vw;
+  }
+  .news .container .card {
+    width: 20vw;
+    margin-top: 20px;
+    height: 200px;
+    font-size: 12px;
+  }
+  .news .container .card:hover {
+    overflow: hidden;
+  }
+
+  .technique .container .banner .disp {
+    font-size: 20px;
+  }
+
+  .contacts .container {
+    margin-top: calc(10vh - 30px);
+  }
+  .contacts .container .fund .upper {
+    font-size: 18px;
+  }
+  .contacts .container .fund .upper #spec {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menu {
+    padding-right: 20px;
+  }
+  .menu #support {
+    display: none;
+  }
+  .menu li #logo {
+    width: 0;
+    display: none;
+  }
+  .menu li a, .menu li h4 {
+    font-size: 16px;
+  }
+
+  .main-page .container {
+    height: 60vh;
+    width: 95vw;
+    padding-left: 2.5vw;
+  }
+  .main-page .container .block {
+    font-size: 16px;
+  }
+  .main-page .container .block p {
+    visibility: hidden;
+    width: 0;
+  }
+  .main-page .container .high {
+    height: 100%;
+    width: 30vw;
+  }
+  .main-page .container .wide {
+    width: 60vw;
+    height: 29vh;
+  }
+
+  .news .container .card {
+    width: 47vw;
+    font-size: 10px;
+  }
+  .news .container .card #date {
+    line-height: 20px;
+    height: 20px;
+  }
+  .news .container .rem {
+    display: none;
+  }
+  .news .container .card:hover {
+    overflow: hidden;
+  }
+
+  .photos {
+    width: 100vw;
+  }
+  .photos .slick_cont {
+    margin-top: 40px;
+    width: 95vw;
+    margin-left: 2.5vw;
+  }
+  .photos .slick_cont .slick {
+    width: 100%;
+  }
+  .photos .slick_cont .slick div {
+    width: 100%;
+  }
+
+  .contacts .container {
+    width: 95vw;
+    margin-left: 2.5vw;
+  }
+  .contacts .container .links {
+    width: 90vw;
+  }
+  .contacts .container .links ul {
+    width: 100%;
+  }
+  .contacts .container .links ul li {
+    width: 100%;
+  }
+  .contacts .container .fund {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .menu #lang {
+    display: none;
+  }
+
+  .main-page .container {
+    width: 100vw;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .main-page .container .high {
+    width: 38vw;
+    overflow: hidden;
+  }
+  .main-page .container .wide {
+    width: 60vw;
+  }
+
+  .news {
+    width: 100vw;
+  }
+  .news .container {
+    width: 95%;
+    padding-left: 2.5%;
+  }
+  .news .container .card {
+    width: 47vw;
+    font-size: 14px;
+  }
+  .news .container .rem {
+    display: none;
+  }
+  .news .container .card:hover {
+    overflow: hidden;
+  }
+
+  .photos {
+    width: 100vw;
+  }
+  .photos .slick_cont {
+    margin-top: 40px;
+    width: 95vw;
+    margin-left: 2.5vw;
+  }
+  .photos .slick_cont .slick {
+    width: 100%;
+  }
+  .photos .slick_cont .slick div {
+    width: 100%;
+  }
+
+  .contacts .container {
+    width: 95vw;
+    margin-left: 2.5vw;
+  }
+  .contacts .container .links {
+    width: 90vw;
+  }
+  .contacts .container .links ul {
+    width: 100%;
+  }
+  .contacts .container .links ul li {
+    width: 100%;
+  }
+  .contacts .container .fund {
+    display: none;
+  }
+}

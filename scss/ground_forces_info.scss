@@ -31,7 +31,9 @@ body{
         list-style: none;
         height: 80px;
         padding-top: 10px;
-        h4{
+        h4,a{
+            color: #F8F9FA;
+            text-decoration: none;
             font-size: 24px;
             font-weight: 800;
             height: 80px;
@@ -49,8 +51,10 @@ body{
         }
     }
     li:hover{
-        transition: all .5s;
-        color: #EAE0D5;
+        a, h4{
+            transition: all .5s;
+            color: #EAE0D5;
+        }
     }
 }
 .main{
@@ -151,7 +155,7 @@ body{
                 flex-direction: column;
                 height: 300px;
                 margin-top: 25px;
-                width: 18.75vw;
+                width: 30vw;
                 margin-bottom: 25px;
                 img{
                     height: 270px;
@@ -168,5 +172,40 @@ body{
                 }
             }
         }
+    }
+}
+.ua{
+    .main{
+        background-image: url(../images/t84.jpg);
+    }
+}
+.ru{
+    .main{
+        background-image: url(../images/BMD-4M.jpg);
+    }
+}
+.chn{
+    .main{
+        background-image: url(../images/china_back.jpg);
+    }
+}
+.ind{
+    .main{
+        background-image: url(../images/india_back.jpg);
+    }
+}
+.kor{
+    .main{
+        background-image: url(../images/SouthKorea_back.jpg);
+    }
+}
+.jap{
+    .main{
+        background-image: url(../images/japan_bacl.jpg);
+    }
+}
+.uk{
+    .main{
+        background-image: url(../images/uk_back.jpeg);
     }
 }

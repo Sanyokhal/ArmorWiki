@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1200px) {
+  .menu{
+    li {
+      a, h4 {
+        font-size: 20px;
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 992px) {
+  .menu {
+    li {
+      a, h4 {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menu {
+    padding-right: 20px;
+    #support {
+      display: none;
+    }
+    li {
+      #logo {
+        width: 0;
+        display: none;
+      }
+      a, h4 {
+        font-size: 16px;
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  .menu {
+    #lang{
+      display: none;
+    }
+  }
+  .container{
+    font-size: 20px;
+    width: 95vw;
+    margin-left: 2.5vw;
+    .l_part, .r_part{
+      width: 45vw;
+    }
+  }
+}
+@media only screen and (max-width: 320px){
+  .air_force{
+    height: 600px;
+    #label{
+      font-size: 26px;
+    }
+    .l_part, .r_part{
+      height: 400px;
+    }
+  }
+  .ground_forces{
+    height: 600px;
+    #label{
+      font-size: 26px;
+    }
+    .l_part, .r_part{
+      height: 400px;
+    }
+  }
+  .naval{
+    height: 600px;
+    #label{
+      font-size: 26px;
+    }
+    .l_part, .r_part{
+      height: 400px;
+    }
+  }
+  .special_forces{
+    height: 600px;
+    #label{
+      font-size: 26px;
+    }
+    .l_part, .r_part{
+      height: 400px;
+    }
+  }
+}
